@@ -31,17 +31,18 @@ Explanation: There is only one element which is the largest.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-07T05:46:38.561Z  
+**Submitted:** 2026-11-07T05:49:21.492Z  
 
 ```py
 class Solution:
     def largest(self, arr):
-        # code here
-        first=arr[0]
-        for i in arr:
-            if first<i:
-                first=i
-        return first
+        largest = arr[0]
+
+        for i in range(len(arr)):
+            if arr[i] > largest:
+                largest = arr[i]
+
+        return largest
 ```
 
 ---
