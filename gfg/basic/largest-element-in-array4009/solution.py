@@ -1,8 +1,9 @@
 class Solution:
     def largest(self, arr):
-        # code here
-        first=arr[0]
-        for i in arr:
-            if first<i:
-                first=i
-        return first
+        largest = arr[0]
+
+        for i in range(len(arr)):
+            if arr[i] > largest:
+                largest = arr[i]
+
+        return largest
