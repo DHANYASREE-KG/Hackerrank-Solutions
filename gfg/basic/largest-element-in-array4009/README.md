@@ -31,7 +31,7 @@ Explanation: There is only one element which is the largest.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-07T05:42:14.795Z  
+**Submitted:** 2026-11-07T05:44:12.066Z  
 
 ```py
 class Solution:
