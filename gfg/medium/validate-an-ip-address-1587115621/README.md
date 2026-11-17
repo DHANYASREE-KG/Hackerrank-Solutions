@@ -38,7 +38,7 @@ Output: true
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-17T15:11:44.128Z  
+**Submitted:** 2026-11-17T15:51:52.555Z  
 
 ```py
 class Solution:
